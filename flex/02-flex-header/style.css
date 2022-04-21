@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logo {
@@ -9,6 +12,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
