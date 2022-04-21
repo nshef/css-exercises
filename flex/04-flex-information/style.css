@@ -11,29 +11,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px
 }
 
 .wrapper {
-  gap: 32px;
-}
-
-.wrapper, .plant-wrapper, .plant {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.wrapper, .plant {
-  flex-direction: column;
-}
-
-.plant-wrapper {
   gap: 52px;
 }
 
 .plant {
-  width: 200px;
-  flex-wrap: wrap;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
