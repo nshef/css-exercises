@@ -12,6 +12,10 @@ img {
   font-weight: 900;
 }
 
+.wrapper {
+  gap: 32px;
+}
+
 .wrapper, .plant-wrapper, .plant {
   display: flex;
   justify-content: center;
@@ -22,7 +26,12 @@ img {
   flex-direction: column;
 }
 
+.plant-wrapper {
+  gap: 52px;
+}
+
 .plant {
+  width: 200px;
   flex-wrap: wrap;
 }
 
