@@ -15,9 +15,6 @@ img {
 .wrapper, .plant-wrapper, .plant {
   display: flex;
   justify-content: center;
-}
-
-.plant-wrapper, .plant {
   align-items: center;
 }
 
@@ -25,6 +22,9 @@ img {
   flex-direction: column;
 }
 
+.plant {
+  flex-wrap: wrap;
+}
 
 /* do not edit this footer */
 .footer {
