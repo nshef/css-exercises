@@ -8,7 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
 
 img {
@@ -30,9 +29,26 @@ input {
   margin-bottom: 16px;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
 .header, .footer {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  background: #eee;
 }
 
 .content {
